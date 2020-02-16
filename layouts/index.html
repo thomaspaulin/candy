@@ -2,7 +2,7 @@
 <main>
     {{ .Content }}
 
-    <h1>Latest Essays</h1>
+    <h1>Latest Articles</h1>
     {{ range .Paginator.Pages }}
     <article>
         <header>
@@ -14,7 +14,7 @@
     {{ end }}
 
     <div>
-        <a href="./essays/">View All {{ len (where .Site.RegularPages "Section" "essays") }} Essays</a>
+        <a href="./articles/">View All {{ len (where .Site.RegularPages "Section" "articles") }} Articles</a>
     </div>
 </main>
 {{ end }}

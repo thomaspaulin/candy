@@ -25,7 +25,7 @@ You can use static pages at the root of `content/`. If you wish to create a smal
 
 ### Essays
 
-`essays` are the default dynamic content, representing articles, blog posts, etc. You can add a `_index.md` to add a custom introduction to the list of essays page, similar to the homepage. These have specific layouts applied to them.
+`articles` are the default dynamic content, representing articles, blog posts, etc. You can add a `_index.md` to add a custom introduction to the list of articles page, similar to the homepage. These have specific layouts applied to them.
 
 ### Other
 
