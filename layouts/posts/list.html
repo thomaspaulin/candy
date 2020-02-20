@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="articles">
+<main class="posts">
     <article>
         <header>
             <h2>{{.Title}}</h2>
@@ -11,7 +11,7 @@
     <ul>
         {{ range .Pages }}
         <li>
-            <div class="meta">{{ .Date.Format "Jan 2" }}</div>
+            <div class="meta">{{ .Date.Format "2 Jan" }}</div>
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
         {{ end }}

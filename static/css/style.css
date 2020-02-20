@@ -111,11 +111,11 @@ img {
   max-width: 100%;
 }
 
-.articles li {
+.posts li {
   display: flex;
 }
 
-.articles li .meta {
+.posts li .meta {
   margin-right: 10px;
   width: 50px;
   border-left: 1px solid lightgrey;

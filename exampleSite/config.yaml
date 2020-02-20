@@ -18,7 +18,7 @@ menu:
   main:
     - name: "Essays"
       identifier: "Essays"
-      url: "/articles/"
+      url: "/posts/"
       weight: -110
 
     - name: "About"
