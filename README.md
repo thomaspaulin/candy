@@ -1,12 +1,13 @@
-# candy
+# tpnz
 
-A minimalist Hugo theme focused on readability and simplicity. It is currently powering [hugomartins.io](https://www.hugomartins.io).
+A minimalist Hugo which tweaks the Candy theme by Hugo Martins.
 
 ## Requirements
 
 - Hugo v0.59
 
 ## Installation
+Follow Hugo Martin's instructions written below
 
 ```
 $ cd themes/
@@ -35,7 +36,4 @@ You should be able to add more dynamic content under different archetypes and fo
 
 Currently there's only one archetype, which is `default.md`.
 
-## License
-
-[MIT](https://github.com/caramelomartins/candy/blob/master/LICENSE)
 
