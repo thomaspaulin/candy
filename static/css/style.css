@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Fire+Mono&display=swap");
+@import url("./syntax.css");
 
 :root {
   --background-color: #f5f5f5;
@@ -88,8 +89,8 @@ nav > ul > li {
   margin-right: 10px;
 }
 
-footer {
-  border-top: 1px solid #7c7a7a;
+footer > div > p {
+  font-size: 1em;
 }
 
 a {
@@ -133,26 +134,25 @@ blockquote {
   border-left: 5px solid #9eadbd;
   margin: 1em 10px;
   padding: 0.5em 20px;
+  font-weight: 500;
   font-style: italic;
 }
 
 pre {
-  padding: 3em 5em 3em 2em;
-  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
-  border-radius: 7px;
-  border: 2px solid #242423;
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 1em;
   font-size: 0.8em;
   overflow-x: auto;
   font-family: "Fira Mono", monospace;
 }
 
 p > code {
-  background: #f9f9fa;
-  border: 1px solid #909090;
-  font-family: Monospace, monospace;
-  font-size: 0.84em;
+  background-color: #272822;
+  color: #f8f8f2;
   padding: 0.1em 0.3em 0;
-  border-radius: 3px;
+  font-size: 0.84em;
+  font-family: "Fira Mono", monospace;
 }
 
 b,
