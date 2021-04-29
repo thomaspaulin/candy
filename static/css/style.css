@@ -72,7 +72,7 @@ div.container {
 }
 
 h1#title {
-  font-family: Playfair Display, serif;
+  font-family: Merriweather, Georgia, serif;
   font-weight: 900;
   font-size: 2.5em;
 }
@@ -89,8 +89,11 @@ nav > ul > li {
   margin-right: 10px;
 }
 
-footer > div > p {
-  font-size: 1em;
+footer {
+  border-top: 1px solid #7c7a7a;
+  text-align: center;
+  font-size: 0.6em;
+  color: rgba(0, 0, 0, 0.2);
 }
 
 a {
@@ -119,14 +122,14 @@ img {
   margin-bottom: 10px;
 }
 
-.essay .categories {
+.article .categories {
   display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.essay .categories li {
+.article .categories li {
   margin-right: 10px;
 }
 
