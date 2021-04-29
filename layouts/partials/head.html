@@ -7,28 +7,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="all, noodp, noydir">
 
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Thomas Paulin" />
-  <meta property="og:title" content="Thomas Paulin" />
-  <meta property="og:url" content="https://blog.thomaspaulin.me/" />
-  <!-- <meta property="og:image" content="" /> -->
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://blog.thomaspaulin.me/">
-  <meta name="twitter:title" content="Thomas Paulin." />
-  <!-- <meta name="twitter:image:src" content="" /> -->
-  <meta name="twitter:site" content="@thomaspaulinnz">
-  <meta name="twitter:creator" content="@othomaspaulinnz">
-
-  {{ if .IsPage }}
-  <meta name="description" content="{{ .Page.Summary }}" />
-  <meta name="og:description" content="{{ .Page.Summary }}" />
-  <meta name="twitter:description" content="{{ .Page.Summary }}" />
-  {{ else }}
-  <meta name="description" content="{{ .Site.Params.Description }}" />
-  <meta name="og:description" content="{{ .Site.Params.Description }}" />
-  <meta name="twitter:description" content="{{ .Site.Params.Description }}" />
-  {{ end }}
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
 
   <base href="{{ .Site.BaseURL }}" />
   <title>
@@ -45,6 +25,4 @@
   <link href="https://fonts.googleapis.com/css?family=Esteban|Montserrat&display=swap" rel="stylesheet" />
 
   <link href="https://fonts.googleapis.com/css?family=Fira+Mono&display=swap" rel="stylesheet" />
-
-  {{ template "_internal/opengraph.html" . }} {{ template "_internal/twitter_cards.html" . }}
 </head>
