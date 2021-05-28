@@ -110,6 +110,10 @@ img {
   max-width: 100%;
 }
 
+.posts ul {
+  padding-left: 0;
+}
+
 .posts li {
   display: flex;
 }
@@ -117,9 +121,11 @@ img {
 .posts li .meta {
   margin-right: 10px;
   width: 50px;
-  border-left: 1px solid lightgrey;
   padding-left: 10px;
   margin-bottom: 10px;
+
+  font-size: small;
+  color: #7c7a7a;
 }
 
 .article .categories {
@@ -158,18 +164,8 @@ p > code {
   font-family: "Fira Mono", monospace;
 }
 
-b,
-strong {
+b, strong {
   color: #242423;
-}
-
-.post ul {
-  padding-left: 0;
-}
-
-.posts li .meta {
-  font-size: small;
-  color: #7c7a7a;
 }
 
 .footer {
