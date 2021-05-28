@@ -163,7 +163,11 @@ strong {
   color: #242423;
 }
 
-.meta {
+.post ul {
+  padding-left: 0;
+}
+
+.posts li .meta {
   font-size: small;
   color: #7c7a7a;
 }
