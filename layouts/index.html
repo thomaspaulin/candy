@@ -3,8 +3,8 @@
     {{ .Content }}
 
     <h1>Latest Posts</h1>
-    {{ $paginator := .Paginate (.Data.Pages.ByDate.Reverse) }}
-    {{range where $paginator.Pages "Type" "ne" "_webpages" }}
+    {{ $paginator := .Paginator }}
+    {{range where $paginator.Pages "Type" "eq" "posts" }}
     <article>
         <header>
             <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
